@@ -1,0 +1,93 @@
+/* 
+This file is imported into lesson-02.html for styling exercises
+*/
+
+div {
+  margin-top: 20px;
+}
+
+.button-2a {
+  background-color: black;
+  color: white;
+  padding: 10px;
+  border: none;
+}
+
+.button-2b {
+  background-color: rgb(255,216,20);
+  border: none;
+  padding: 7px 35px;
+  border-radius: 10px;
+  font-size: small;
+}
+
+.button-2c {
+  background-color: rgb(46,164,79);
+  color: white;
+  font-size: small;
+  font-weight: bold;
+  border: none;
+  padding: 7px 15px;
+  border-radius: 5px;
+}
+
+.button-2d_1 {
+  background-color: rgb(121,82,179);
+  color: white;
+  font-size: small;
+  border: none;
+  padding: 7px 14px;
+  border-radius: 5px;
+}
+
+.button-2d_2 {
+  background-color: white;
+  color: rgb(108,117,125);
+  border-color: rgb(108,117,125);
+  font-size: small;
+  font-weight: bold;
+  border: solid;
+  border-width: 1px;
+  padding: 6px 14px;
+  border-radius: 5px;
+}
+
+.button-2e_1 {
+  background-color: rgb(10, 102, 194);
+  border: none;
+  color: white;
+  font-size: 13px;
+  font-weight: bold;
+  padding: 7px 20px;
+  border-radius: 15px;
+}
+
+.button-2e_2 {
+  background-color: white;
+  border-color: rgb(10, 102, 194);
+  color: rgb(10, 102, 194);
+  font-size: 13px;
+  font-weight: bold;
+  padding: 7px 20px;
+  border-radius: 15px;
+  border-style: solid;
+  border-width: 1px;
+}
+
+.button-2f_1 {
+  background-color: rgb(255, 216, 20);
+  border: none;
+  padding: 5px 15px;
+  border-radius: 10px;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.button-2f_2 {
+  background-color: rgb(255, 164, 28);
+  border: none;
+  padding: 5px 15px;
+  border-radius: 10px;
+  font-size: 13px;
+  font-weight: 500;
+}
