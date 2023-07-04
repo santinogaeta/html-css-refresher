@@ -1,3 +1,23 @@
 /* 
 This file is imported into lesson-07.html for styling exercises
 */
+
+.ex7a {
+  width: 200px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 15px;
+}
+
+.ex7b {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+}
+
+.ex7c {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 100px;
+}
