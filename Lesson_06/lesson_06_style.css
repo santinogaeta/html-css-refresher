@@ -1,0 +1,23 @@
+/* 
+This file is imported into lesson-04.html for styling exercises
+*/
+
+.ex6d {
+  font-family: Montserrat;
+}
+
+.header {
+  font-weight: bold;
+  font-size: xx-large;
+  text-align:center;
+}
+
+.sub-head {
+  margin-top: -20px;
+  text-align: center;
+}
+
+.msg-end {
+  text-decoration: underline;
+  cursor: pointer;
+}
