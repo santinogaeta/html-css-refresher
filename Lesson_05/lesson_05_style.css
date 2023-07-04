@@ -1,0 +1,85 @@
+/* 
+This file is imported into lesson-04.html for styling exercises
+*/
+
+div {
+  margin-bottom: 45px;
+}
+
+.ex5a {
+  font-family:Tahoma;
+  font-weight: bold;
+}
+
+.header-5b {
+  font-family: Arial;
+  font-weight: bold;
+  font-size: x-large;
+}
+
+.p-5b {
+  font-family: Arial;
+  color: red;
+  font-style: italic;
+  margin-top: -15px;
+}
+
+.font-5c {
+  font-family: Verdana;
+  width: 250px;
+}
+
+.header-5c {
+  font-weight: bold;
+}
+
+.sub-5c {
+  color:gray;
+  margin-top: -15px;
+  font-size:small;
+}
+
+.msg-5c {
+  font-size: small;
+}
+
+.btn-5c {
+  background-color: green;
+  color:white;
+  border: none;
+  border-radius: 4px;
+  padding: 6px 10px;
+  cursor: pointer;
+  transition: opacity 0.5s;
+}
+
+.btn-5c:hover {
+  opacity: 0.5;
+}
+
+.font-5d {
+  font-family: Arial;
+}
+
+.header-5d {
+  font-size:x-large;
+  font-weight: bold;
+  text-align: center;
+}
+
+.sub-5d {
+  font-size: small;
+  text-align: center;
+}
+
+.link-5d {
+  font-size: small;
+  text-align: center;
+  color: blue;
+  cursor: pointer;
+  transition: text-decoration 0.2s;
+}
+
+.link-5d:hover{
+  text-decoration: underline;
+}
