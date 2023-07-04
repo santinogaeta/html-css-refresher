@@ -16,7 +16,6 @@ div {
   font-weight: bold;
   font-size: x-large;
 }
-
 .p-5b {
   font-family: Arial;
   color: red;
@@ -28,21 +27,17 @@ div {
   font-family: Verdana;
   width: 250px;
 }
-
 .header-5c {
   font-weight: bold;
 }
-
 .sub-5c {
   color:gray;
   margin-top: -15px;
   font-size:small;
 }
-
 .msg-5c {
   font-size: small;
 }
-
 .btn-5c {
   background-color: green;
   color:white;
@@ -52,7 +47,6 @@ div {
   cursor: pointer;
   transition: opacity 0.5s;
 }
-
 .btn-5c:hover {
   opacity: 0.5;
 }
@@ -60,18 +54,15 @@ div {
 .font-5d {
   font-family: Arial;
 }
-
 .header-5d {
   font-size:x-large;
   font-weight: bold;
   text-align: center;
 }
-
 .sub-5d {
   font-size: small;
   text-align: center;
 }
-
 .link-5d {
   font-size: small;
   text-align: center;
@@ -79,7 +70,79 @@ div {
   cursor: pointer;
   transition: text-decoration 0.2s;
 }
-
 .link-5d:hover{
   text-decoration: underline;
+}
+
+.font-5e, .font-5f, .font-5g {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.new-5e {
+  color: orange;
+  font-size: x-small;
+  text-align: center;
+}
+
+.product-5e {
+  font-size: medium;
+  font-weight: bold;
+  margin: -5px;
+  text-align: center;
+}
+
+.header-5e {
+  font-size: x-large;
+  font-weight: bold;
+  margin: 4px;
+  text-align: center;
+}
+
+.price-5e {
+  font-size: x-small;
+  margin: 10px;
+  text-align: center;
+}
+
+.btn-5e {
+  background-color: rgb(84, 170, 227);
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 4px 10px;
+  font-size: x-small;
+  text-align: center;
+}
+
+.num-5f {
+  font-size: xx-large;
+}
+.currency-5f {
+  color: grey;
+}
+.today-5f {
+  color: green;
+  margin-top: 5px;
+}
+.after-5f {
+  color: grey;
+}
+.end-5f {
+  color: red;
+}
+
+.font-5g {
+  width: 500px;
+}
+.title-5g {
+  font-weight: bold;
+}
+.handle-5g {
+  color: grey;
+}
+.msg-5g {
+  margin-top: -5px;
+}
+.link-5g {
+  color: rgb(90, 192, 233);
+  cursor: pointer;
 }
