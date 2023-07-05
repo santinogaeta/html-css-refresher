@@ -1,0 +1,88 @@
+/* 
+This file is imported into lesson_08.html for styling exercises
+*/
+
+.namebox, .emailbox {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.msg {
+  width: 200px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.button-8b {
+  cursor: pointer;
+}
+
+.div-8d {
+  width: 240px;
+  margin-bottom: 50px;
+}
+
+.fn-input, .ln-input, .email-input {
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 1px;
+  width: 46%;
+  padding: 5px 0px 5px 5px;
+  margin-bottom: 10px;
+  display: inline-block;
+}
+
+.email-input {
+  width: 97%;
+  display: block;
+}
+
+.signup-btn {
+  background-color: rgb(94, 189, 248);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  width: 100%;
+  padding: 8px;
+}
+
+.uber-div {
+  width: 300px;
+}
+
+.header {
+  font-size: xx-large;
+}
+
+.loc-btn {
+  display: block;
+}
+
+.loc-btn, .dest-btn {
+  border: none;
+  padding: 10px 15px;
+  margin-bottom: 5px;
+  width: 100%;
+  text-align: left;
+  color: grey;
+}
+
+.bottom-btns {
+  margin-top: 20px;
+}
+
+.req-btn {
+  border: none;
+  background-color: black;
+  padding: 10px 15px;
+  margin-bottom: 5px;
+  color: white;
+}
+
+.schd-btn {
+  border: none;
+  padding: 10px 15px;
+  margin-bottom: 5px;
+  margin-left: 15px;
+  color: black;
+}
