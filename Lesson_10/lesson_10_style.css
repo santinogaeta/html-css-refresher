@@ -1,0 +1,49 @@
+/* 
+This file is imported into lesson_10.html for styling exercises
+*/
+
+.friend-prof {
+  margin: 50px 5px 50px 5px;
+  box-shadow: 0px 0px 5px rgba(0,0,0,0.5);
+  width: 150px;
+  padding: 0px 0px 8px 0px;
+  display: inline-block;
+}
+
+.prof-pic {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+}
+
+.name {
+  font-size: small;
+  font-weight: bold;
+  margin-left: 5px;
+}
+
+.mutual-pic {
+  width: 20px;
+  height: 20px;
+  border-radius: 50px;
+  margin-left: 5px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.friend-num {
+  font-size: x-small;
+  color:grey;
+  margin: 3px 0px 7px 0px;
+  display: inline-block
+}
+
+.add-friend-btn {
+  background-color: rgb(6, 173, 245);
+  color: white;
+  padding: 4px 6px;
+  font-size:x-small;
+  margin: 4px 0px 0px 5px;
+  cursor: pointer;
+  border-radius: 3px;
+}
