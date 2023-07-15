@@ -1,0 +1,52 @@
+/* 
+This file is imported into lesson_12.html for styling exercises
+*/
+
+.ex12a {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 50px;
+}
+.ex12a-left {
+  width: 200px;
+  background-color: pink;
+}
+.ex12a-right {
+  width:75px;
+  background-color: lightblue;
+}
+
+.ex12b {
+  margin-bottom: 50px;
+  display:flex;
+
+}
+.ex12b-left, .ex12b-right {
+  background-color: lightblue;
+  width: 50px;
+}
+.ex12b-mid {
+  background-color: pink;
+  flex: 1;
+}
+
+.ex12c {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+.ex12c-block {
+  background-color: pink;
+}
+
+.ex12d {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+  height: 50px;
+  border: solid;
+  align-items: center;
+}
+.ex12d-block {
+  background-color: pink;
+}
