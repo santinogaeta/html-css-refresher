@@ -1,0 +1,86 @@
+/* 
+This file is imported into lesson_11.html for styling exercises
+*/
+
+.ex11a {
+  display:grid;
+  grid-template-columns: 200px 75px;
+  margin-bottom: 50px;
+}
+.ex11a-left {
+  background-color: lightblue;
+}
+.ex11a-right {
+  background-color: pink;
+}
+
+
+.ex11b {
+  margin-bottom: 50px;
+  display:grid;
+  grid-template-columns: 50px 1fr 75px;
+}
+.ex11b-left, .ex11b-right {
+  background-color: lightblue;
+}
+.ex11b-mid {
+  background-color: pink;
+}
+
+.ex11c {
+  margin-bottom: 50px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  column-gap: 20px;
+  row-gap: 10px;
+}
+.ex11c-block {
+  background-color: pink;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: min-content min-content min-content;
+  column-gap: 20px;
+}
+.friend-prof {
+  margin: 50px 5px 50px 5px;
+  box-shadow: 0px 0px 5px rgba(0,0,0,0.5);
+  width: 150px;
+  padding: 0px 0px 8px 0px;
+}
+.prof-pic {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+}
+.name {
+  font-size: small;
+  font-weight: bold;
+  margin-left: 5px;
+}
+.mutual-friends {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  align-items: center;
+}
+.mutual-pic {
+  width: 20px;
+  height: 20px;
+  border-radius: 50px;
+  margin-left: 5px;
+}
+.friend-num {
+  font-size: x-small;
+  color:grey;
+  margin: 3px 0px 7px 0px;
+}
+.add-friend-btn {
+  background-color: rgb(6, 173, 245);
+  color: white;
+  padding: 4px 6px;
+  font-size:x-small;
+  margin: 4px 0px 0px 5px;
+  cursor: pointer;
+  border-radius: 3px;
+}
