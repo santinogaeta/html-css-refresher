@@ -1,0 +1,89 @@
+/* 
+This file is imported into lesson_13.html for styling exercises
+*/
+
+.ex13a-section {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 60px;
+}
+.ex13a-pink {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  background-color: pink;
+  width: 100px;
+  height: 50px;
+}
+.ex13a-blue {
+  background-color: lightblue;
+  width: 200px;
+  height: 50px;
+}
+.ex13a-item {
+  background-color: black;
+  color: white;
+}
+
+
+.ex13b-section {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 60px;
+}
+.ex13b-pink {
+  background-color: pink;
+  width: 100px;
+  height: 60px;
+}
+.ex13b-blue {
+  background-color: lightblue;
+  width: 200px;
+  height: 60px;
+}
+.ex13b-row2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.ex13c-section {
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+  padding: 5px 10px;
+  width: 340px;
+}
+.ex13c-title {
+  color: grey;
+  font-size: small;
+}
+.ex13c-email {
+  margin: 10px 0px;
+  display: flex;
+  align-items: center;
+}
+.ex13c-img {
+  height: 40px;
+  width: 40px;
+  object-fit: cover;
+  border-radius: 50px;
+}
+.ex13c-info {
+  width: 80%;
+  margin-left: 10px;
+}
+.ex13c-topline {
+  display: flex;
+  justify-content: space-between;
+}
+.ex13c-header, .ex13c-subject {
+  font-weight: bold
+}
+.ex13c-subject{
+  font-size: small;
+}
+.ex13c-time, .ex13c-preview {
+  color: grey;
+  font-size: small;
+}
