@@ -50,3 +50,97 @@ This file is imported into lesson_12.html for styling exercises
 .ex12d-block {
   background-color: pink;
 }
+
+.ex12e-box {
+  border: solid;
+  border-width: 1px;
+  padding: 0px 10px 0px 10px;
+  border-radius: 5px;
+  border-color: gray;
+  margin-bottom: 50px;
+}
+.ex12e-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 0px 10px 0px;
+}
+.ex12e-text {
+  font-size:larger;
+}
+.ex12e-btn {
+  color: white;
+  background-color: rgb(60, 126, 225);
+  border: solid;
+  border-radius: 15px;
+  padding: 4px 12px 4px 12px;
+}
+
+
+.ex12f-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(170, 91, 245);
+  padding: 12px;
+  margin-bottom: 60px;
+}
+.ex12f-txt {
+  color: white;
+}
+.ex12f-search {
+  width: 50%;
+  border-radius: 10px;
+  border: none;
+  padding-left: 10px;
+  font-size: x-small;
+  height: 18px;
+}
+.ex12f-btn {
+  background-color: rgb(170, 91, 245);
+  border:solid;
+  border-color: white;
+  border-width: 1px;
+  border-radius: 2px;
+  color: white;
+  padding: 5px 10px;
+  font-size: x-small;
+}
+
+.ex12g-profile {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 0px 20px 20px 0px;
+  width: 500px;
+}
+.ex12g-pic {
+  height: 50px;
+  width: 50px;
+  object-fit: cover;
+  border-radius: 40px;
+  margin: 0px 15px;
+}
+.ex12g-info {
+  margin: 0px 70px 0px 0px;
+  width: 100px; 
+}
+.ex12g-name {
+  font-weight: bold;
+}
+.ex12g-desc, .ex12g-smldesc {
+  color: grey;
+}
+.ex12g-smldesc {
+  font-size: small;
+}
+.ex12g-btn {
+  background-color: rgb(8, 192, 248);
+  color: white;
+  border: none;
+  padding: 6px 13px;
+  border-radius: 6px;
+  cursor: pointer;
+}
