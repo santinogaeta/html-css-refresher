@@ -1,0 +1,138 @@
+/* 
+This file is imported into lesson_14.html for styling exercises
+*/
+
+.bottom-right {
+  color: white;
+  background-color: black;
+  display: inline-block;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+
+.green-bar {
+  background-color: green;
+  color: white;
+  position: fixed;
+  width: 100px;
+  top: 40px;
+  right: 0px;
+  bottom: 0px;
+}
+
+.overlay {
+  background-color: rgba(0, 0, 0, 0.8);
+  position: fixed;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.modal-box {
+  background-color: white;
+  border-radius: 10px;
+  width: 250px
+}
+.modal-info {
+  padding: 15px;
+}
+.modal-header {
+  font-size: x-large;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.modal-desc {
+  margin-bottom: 10px;
+}
+
+.fb-bar {
+  position: fixed;
+  top: 0px;
+  left:0px;
+  right: 0px;
+  height: 40px;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+}
+.fb-left {
+  display: flex;
+  align-items: center;
+  margin-left: 60px;
+}
+.prof-pic {
+  width: 30px;
+  height: 30px;
+  object-fit: cover;
+  border-radius: 15px;
+  margin: 5px 5px;
+}
+.fb-right{
+  display: flex;
+  align-items: center;
+  margin-right: 60px;
+}
+.add-friend {
+  background-color: rgb(74, 172, 243);
+  color: white;
+  font-weight: bold;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  margin-right: 5px;
+}
+.message {
+  background-color: rgb(219, 219, 219);
+  color: black;
+  font-weight: bold;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+}
+
+.discord-content {
+  position: fixed;
+  top: 40px;
+  left: 50px;
+  bottom: 0px;
+  width: 150px;
+  background-color: rgb(76, 76, 76);
+}
+.discord-pics {
+  background-color: rgb(45, 44, 44);
+  position: fixed;
+  top: 40px;
+  left: 0px;
+  bottom: 0px;
+  width: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 10px
+}
+.discord-pic {
+  width: 35px;
+  height: 35px;
+  object-fit: cover;
+  border-radius: 20px;
+  margin: 5px 5px;
+}
+.info-header {
+  display:flex;
+  justify-content: space-between;
+  padding: 15px 10px;
+}
+.info-text {
+  color: white;
+}
+.discord-text {
+  color: rgb(178, 178, 178);
+}
+.discord-channels {
+  color: rgb(178, 178, 178);
+  margin: 0px 0px 10px 10px;
+}
